@@ -1,0 +1,142 @@
+body{
+    margin:0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    scroll-behavior: smooth;
+    font-family: "Roboto", sans-serif;
+}
+
+h2{
+    font-size: 40px;
+    letter-spacing: 10%;
+    font-weight: 700;
+}
+
+header > img{
+    width: 219px;
+    height: 219px;
+    object-fit: contain;
+    cursor: pointer;
+}
+
+.sectionaction{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.action{
+    margin-right: 60px;
+    line-height: 48px;
+    height: calc(303px);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+
+.imagesection{
+    margin-block: 60px;
+}
+
+button{
+    height: 48px;
+    width: 160px;
+    color:white;
+    background-color: black;
+    border-radius: 8px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: #404040;
+    transition: 200ms ease-out ;
+}
+
+.behind{
+    display: flex;
+    flex-direction: row;
+    padding: 16px;
+    border: 1px solid #D9D9D9;
+    border-radius: 8px;
+}
+.behind > img{
+    margin-right: 16px ;
+}
+
+h4{
+    margin-bottom: 8px;
+    margin-top: 0;
+}
+.contact{
+    display:flex;
+    margin-top: 120px;
+    flex-direction: column;
+    align-items: center;
+    column-gap: 24px;
+    width: 100%;
+}
+
+.email{
+    flex-direction: column;
+    display: flex ;
+    column-gap: 4px;
+    width: 38%;
+}
+
+.contact > button{
+    margin-top: 24px;
+}
+
+input{
+    padding-inline: 12px;
+    padding-block: 8px;
+    border-radius: 6px;
+    border: 1px solid  #D9D9D9;
+    margin-top:4px;
+}
+
+.conts{
+    display: flex;
+    
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid  #D9D9D9;
+    border-radius: 6px;
+
+}
+
+.containerimage{
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+    width: 340px;
+    height: 300px;
+    object-fit: fill;
+}
+
+.userinfo{
+    padding:12px;
+}
+
+.event{
+    padding:2px;
+    border: 1px solid #0000000f;
+    border-radius: 2px;
+    font-size: 12px;
+    background-color: #D9D9D9;
+}
+
+.user{
+    margin-top:8px;
+    font-size: 16px;
+    font-weight:700;
+}
+
+.user > span{
+    color: #D9D9D9;
+}
